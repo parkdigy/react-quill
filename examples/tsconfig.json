@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "jsx": "react",
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "preserveSymlinks": true,
+    "baseUrl": "./",
+    "paths": {
+      "@comp": ["src/component"],
+      "@ccomp": ["src/component/Common"],
+    }
+  },
+  "include": ["src/**/*", "../src/**/*"],
+  "exclude": ["node_modules", "dist", "src/**/*.test.tsx"]
+}

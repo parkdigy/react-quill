@@ -1,0 +1,9 @@
+[
+  {
+    "id": "home",
+    "name": "Home",
+    "depth": 1,
+    "uri": "/",
+    "icon": "Home"
+  }
+]
